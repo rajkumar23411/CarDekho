@@ -5,10 +5,18 @@
 
 ## 😶‍🌫️ Screenshots
 
-| Display | Display |
-| ----------- | ---------- |
-| ![1](https://github.com/rajkumar23411/chatbot/assets/90103892/44393754-f025-482e-9d08-a56c01df8dde) | ![2](https://github.com/rajkumar23411/chatbot/assets/90103892/4fac718f-c513-4d72-9b0e-923589b1fb73) |
-| ![3](https://github.com/rajkumar23411/chatbot/assets/90103892/2cc35068-0f0b-4239-8f7c-5d3f5e56e252) | ![4](https://github.com/rajkumar23411/chatbot/assets/90103892/e2ebef44-bd1a-4451-87ca-0a734d419e3d) |
+*Page - 1 (Home page)*
+![Page-1 (default)](https://github.com/rajkumar23411/CarDekho/assets/90103892/9d16e648-d246-40b5-98d2-49574f5b1b4c)
+
+*Page - 5 (using pagination)*
+![Different page using pagination](https://github.com/rajkumar23411/CarDekho/assets/90103892/7e8cea1b-e9d7-4464-b2f4-8cfa24bb662e)
+
+*Search result (keyword = ford)*
+![Search result for ford](https://github.com/rajkumar23411/CarDekho/assets/90103892/47954a40-7ca0-4a9d-a972-0b53811afc20)
+
+*No search result*
+![No search result](https://github.com/rajkumar23411/CarDekho/assets/90103892/8d17dde1-1962-483b-b23f-af1e36d25d8b)
+
 
 ## 🐤 Key Features
 
@@ -25,6 +33,7 @@
 - [Vite](https://vitejs.dev/guide/)
 - [React.js](https://reactjs.org/)
 - [react-router-dom](https://reactrouter.com/en/main)
+- [react-icons](https://react-icons.github.io/react-icons)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## 🎊 Getting Started
