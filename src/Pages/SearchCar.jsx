@@ -1,9 +1,10 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import cars from "../cars.json";
 import CarCard from "../Components/CarCard";
 import Navbar from "../Components/Navbar";
 import usePagination from "../pagination";
 import Pagination from "../Components/Pagination";
+import NoResults from "../Components/NoResults";
 
 const SearchCar = () => {
     const navigate = useNavigate();
@@ -27,12 +28,15 @@ const SearchCar = () => {
     return (
         <div className="h-full w-full px-6">
             <Navbar />
-            <div className="grid grid-cols-3 gap-10 my-10">
-                {currentPageItems.map((car, i) => (
-                    <CarCard key={i} car={car} />
-                ))}
-            </div>
-
+            {filteredCars.length === 0 ? (
+                <NoResults keyword={keyword} />
+            ) : (
+                <div className="grid grid-cols-3 gap-10 my-10">
+                    {currentPageItems.map((car, i) => (
+                        <CarCard key={i} car={car} />
+                    ))}
+                </div>
+            )}
             {filteredCars.length > 6 && (
                 <Pagination
                     dataLength={dataLength}
